@@ -1,7 +1,10 @@
+def f_avg(data):
+    if not data:
+        return None
 
-
-def f_avg(Data):
-
+    total = sum(data)
+    average = total / len(data)
+    return average
    
 
 def f_sum(data):
